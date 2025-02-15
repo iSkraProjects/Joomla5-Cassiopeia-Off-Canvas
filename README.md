@@ -15,7 +15,7 @@ After those codes are in place, login to your administration area, site modules 
 Go to your Language Overrides and create the translation for your language using the text selector: MOD_OFFCANVAS_MENU_TITLE
 You can change the text selector from within the offcanvas.php file, line 35.
 
---
+![image](https://github.com/user-attachments/assets/ad30d3a4-1ce8-4429-b636-33e7fae3a969)
 
 The menu is created to trigger the burger menu after 992px of max-width and it displays a burger menu alongside with the "Menu" text. Below 420px of width, the text is hidden using a simple css class. If you have the width, you can remove the lines 11 to 22 from the css file.
 
