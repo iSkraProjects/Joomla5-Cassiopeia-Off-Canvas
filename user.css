@@ -20,6 +20,8 @@
 }
 
 /**/
+
 .offcanvas button.btn-close {filter: invert(1);transition: .2s ease-in-out;}
 .offcanvas button.btn-close:hover {opacity:1;}
+
 /* OFF CANVAS END*/
