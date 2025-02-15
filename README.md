@@ -6,7 +6,7 @@ The following works either on the default template files (wrong method), or in a
 Get the offcanvas.php file and add it into the overrides folder of the template, inside a new one named mod_menu.
 • As an example: public.html/templates/cassiopeia/html/mod_menu/offcanvas.php
 
-Next, add the css code to your custom user.css file or if you havent created one, create one inside your template's or child theme's css folder.
+Next, add the css code to your custom user.css file or if you havent, create one inside your template's or child theme's css folder.
 • As an example: public.html/media/templates/site/cassiopeia/css/user.css
 
 After those codes are in place, login to your administration area, site modules and create a new menu module.
