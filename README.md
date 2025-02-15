@@ -1,7 +1,7 @@
 # Joomla5-Cassiopeia-Off-Canvas
 Simple Off Canvas Menu for the Default Joomla! 5 template, Cassiopeia. Just an easy way to replace the default collapsible menu.
 
-The following works either on the default template files (wrong method), or in a child theme for the Cassiopeia Template (correct solution).
+The following works either on the default template files (wrong method), or in a child theme for the Cassiopeia Template (correct solution). I have created an override in the Template's Child theme to make the header one liner instead of two.
 
 Get the offcanvas.php file and add it into the overrides folder of the template, inside a new one named mod_menu.
 • As an example: public.html/templates/cassiopeia/html/mod_menu/offcanvas.php
