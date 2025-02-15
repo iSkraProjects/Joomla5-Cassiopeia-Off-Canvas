@@ -1,0 +1,25 @@
+/* OFF CANVAS */
+
+/* Ensure normal menu only shows on screens 992px and larger */
+@media (max-width: 991px) {.navbar-expand {display: none !important;}}
+/* Ensure offcanvas menu only shows below 992px */
+@media (min-width: 992px) {.offcanvas {display: none !important;}}
+@media (max-width:420px) {.icon-menu:before {font-size: 30px;}}
+
+/**/
+
+/* Ensure the burger icon is visible and hide "Menu" text below 421px */
+@media (max-width: 420px) {
+    .menu-text {
+        display: none !important; /* Hide the "Menu" text */
+    }
+
+    .icon-menu {
+        display: inline-block !important; /* Ensure burger icon is visible */
+    }
+}
+
+/**/
+.offcanvas button.btn-close {filter: invert(1);transition: .2s ease-in-out;}
+.offcanvas button.btn-close:hover {opacity:1;}
+/* OFF CANVAS END*/
